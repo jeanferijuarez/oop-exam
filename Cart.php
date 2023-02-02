@@ -20,7 +20,7 @@
                     <li><b>Dose:</b> ' . $item->getDose() .'mg' .  '</li>
                     <li><b>Type: </b>' . $item->getType() . '</li>
                     <li><b>Exp Date:</b> ' . $item->getExpirationDate() . '</li>
-                    <li><b>SRP:</b> ₱ ' . $item->computeSRP()  . '</li>
+                    <li><b>SRP:</b> ₱ ' . $item->computeSRP(). '.00'  . '</li>
                 </ul>
                 <hr>';
             }
