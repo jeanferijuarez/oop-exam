@@ -1,0 +1,41 @@
+Product
+	name
+	description
+	price
+	srp
+	
+	setName()
+	setDescription()
+	setPrice()
+	
+	getName()
+	getDescription()
+	getPrice()
+	
+	computeSRP() {
+		price * 1.5;
+	}
+	
+Medicine inherits from Product
+	dose
+	type
+	expirationDate
+	
+	setDose()
+	setType()
+	setExpirationDate()
+	
+	getDose()
+	getType()
+	getExpirationDate()
+	
+	computeSRP() {
+		price * 2;
+	}
+	
+Cart
+	cartItems[]
+	
+	addToCart()
+	viewCart()
+	computeTotal()
