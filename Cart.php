@@ -14,13 +14,13 @@
                 echo 
                 '
                 <ul>
-                    <li>Name: ' . $item->getName() . '</li>
-                    <li>Description: ' . $item->getDescription() . '</li>
-                    <li>Price: ₱ ' . number_format($item->getPrice(), 2 ). '</li>
-                    <li>Dose: ' . $item->getDose() .'mg' .  '</li>
-                    <li>Type: ' . $item->getType() . '</li>
-                    <li>Exp Date: ' . $item->getExpirationDate() . '</li>
-                    <li>SRP: ₱ ' . $item->computeSRP()  . '</li>
+                    <li><b>Name:</b> ' . $item->getName() . '</li>
+                    <li><b>Description:</b> ' . $item->getDescription() . '</li>
+                    <li><b>Price:</b> ₱ ' . number_format($item->getPrice(), 2 ). '</li>
+                    <li><b>Dose:</b> ' . $item->getDose() .'mg' .  '</li>
+                    <li><b>Type: </b>' . $item->getType() . '</li>
+                    <li><b>Exp Date:</b> ' . $item->getExpirationDate() . '</li>
+                    <li><b>SRP:</b> ₱ ' . $item->computeSRP()  . '</li>
                 </ul>
                 <hr>';
             }
